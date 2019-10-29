@@ -20,3 +20,7 @@ virtualenv -p /usr/bin/python3.5 env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
+## 其他说明
+
+main.py为程序执行入口，将调用conf/config.ini文件信息。clone代码后需要将conf/config.example.ini文件名改为config.ini，并配置自己所需的字段信息
